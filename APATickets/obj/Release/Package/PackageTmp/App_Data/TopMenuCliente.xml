@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<items>
+  <item Text="Tickets Activos" NavigateUrl="~/Usuario/TicketsUsuario.aspx" />
+  <item Text="Historial de Tickets" NavigateUrl="~/Usuario/HistorialTicketsUsuario.aspx" />
+  <item Text="Información del Usuario" NavigateUrl="~/Usuario/InformacionUsuario.aspx"  />
+  <item Text="Ayuda" NavigateUrl="~/Usuario/AyudaUsuario.aspx"  />
+  <item Text="Cerrar Sesión" NavigateUrl="~/Usuario/CerrarSesionesUsuario.aspx"  />
+</items>

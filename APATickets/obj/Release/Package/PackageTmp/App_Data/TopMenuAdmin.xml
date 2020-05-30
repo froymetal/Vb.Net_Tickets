@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<items>
+  <item Text="Gestión de Tickets" NavigateUrl="~/Admin/TicketsAdmin.aspx" />
+  <item Text="Asignar Responsable" NavigateUrl="~/Admin/AsignacionResponsable.aspx"  />
+  <item Text="Clientes" NavigateUrl="~/Admin/ListadoClientes.aspx"  />
+  <item Text="Administradores" NavigateUrl="~/Admin/GestionAdmin.aspx"  />
+  <item Text="Información Usuario" NavigateUrl="~/Admin/InformacionAdmin.aspx"  />
+  <item Text="Inconvenientes" NavigateUrl="~/Admin/InconvenienteAdmin.aspx"  />
+  <item Text="Cambio Clave" NavigateUrl="~/Admin/CambioClaveAdmin.aspx"  />
+  <item Text="Reportes" NavigateUrl="~/Admin/ReportesAdmin.aspx"  />
+</items>

@@ -1,0 +1,99 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterAdministrador.master.cs" Inherits="APATickets.MasterAdministrador" %>
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="Content/Site.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <dx:ASPxSplitter ID="ASPxSplitter1" runat="server" AllowResize="False" Orientation="Vertical"
+            FullscreenMode="True" SeparatorVisible="False" Height="100%" Width="100%">
+            <Styles>
+                <Pane>
+                    <Paddings Padding="0px" />
+                    <Border BorderWidth="0px" />
+                </Pane>
+            </Styles>
+            <Panes>
+                <dx:SplitterPane Name="Header" Size="90px" MinSize="90px" AutoWidth="true">
+                    <PaneStyle CssClass="headerPane">
+                        <BorderBottom BorderWidth="1px" />
+                    </PaneStyle>
+                    <ContentCollection>
+                        <dx:SplitterContentControl ID="SplitterContentControl1" runat="server">
+                            <div class="headerTop">
+                                <div class="templateTitle">
+                                    <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/APA.png" Width="" />
+                                </div>
+                                <div class="loginControl">
+                                    <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                                        <LoggedInTemplate>
+                                            Bienvenido:
+                                             <span class="bold">
+                                                 <asp:LoginName ID="HeadLoginName" runat="server" />
+                                             </span>
+                                            ! 
+                                            <br>
+                                            <a href="CerrarSesionAdmin.aspx">Cerrar Sesión</a>
+                                            <%-- <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutText="Cerrar Sesión"
+                                            LogoutPageUrl="~/Admin/CerrarSesionAdmin.aspx" />--%>
+                                        </LoggedInTemplate>
+                                    </asp:LoginView>
+                                </div>
+                            </div>
+                            <div class="headerMenu">
+                                <%-- MENU SUPERIOR --%>
+                                <dx:ASPxMenu ID="ASPxMenu1" runat="server" RenderMode="Lightweight" Width="100%" Font-Bold="true"
+                                    DataSourceID="XmlDataSourceHeader">
+                                    <Border BorderWidth="0px" />
+                                    <BorderTop BorderWidth="1px" />
+                                </dx:ASPxMenu>
+                            </div>
+                        </dx:SplitterContentControl>
+                    </ContentCollection>
+                </dx:SplitterPane>
+                <%-- CUERPO DE PAGINA --%>
+                <dx:SplitterPane Name="Content" MinSize="375px" ScrollBars="Both">
+                    <PaneStyle CssClass="mainContentPane"></PaneStyle>
+                    <ContentCollection>
+                        <dx:SplitterContentControl ID="SplitterContentControl3" runat="server" SupportsDisabledAttribute="True">
+                            <asp:ContentPlaceHolder ID="Content" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </dx:SplitterContentControl>
+                    </ContentCollection>
+                    <PaneStyle BackColor="white" >
+                        <BorderBottom BorderWidth="1px" />
+                    </PaneStyle>
+                </dx:SplitterPane>
+                <%-- PIE DE PAGINA --%>
+                <dx:SplitterPane Name="Footer" Size="65px" PaneStyle-CssClass="footerPane">
+                    <ContentCollection>
+                        <dx:SplitterContentControl ID="SplitterContentControl4" runat="server">
+                            <div class="footerMenu">
+                            </div>
+                            <div>
+                                <dx:ASPxLabel ID="ASPxLabel2" runat="server" Font-Size="Small">
+                                </dx:ASPxLabel>
+                            </div>
+                        </dx:SplitterContentControl>
+                    </ContentCollection>
+                </dx:SplitterPane>
+            </Panes>
+        </dx:ASPxSplitter>
+
+        <%-- DXCOMMENT: Configure a datasource for the header menu --%>
+        <asp:XmlDataSource ID="XmlDataSourceHeader" runat="server" DataFile="~/App_Data/TopMenuAdmin.xml"
+            XPath="/items/*"></asp:XmlDataSource>
+
+
+    </form>
+    <div align="right">© Copyright Alfredo Paredes y Asociados Cia. Ltda.</div>
+    </form>
+</body>
+</html>

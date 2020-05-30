@@ -1,0 +1,1 @@
+<%@ Application Codebehind="Global.asax.cs" Inherits="APATickets.Global_asax" Language="C#" %>

@@ -1,0 +1,849 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo es utilizado por el proceso de paquete/publicación de nuestro proyecto Web. Puede personalizar el comportamiento de este proceso
+editando este archivo MSBuild. Para conocer más acerca de esto, visite http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\Sistema de Tickets 1.0 Publicado</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Account/ChangePassword.aspx">
+      <publishTime>06/20/2014 10:05:32</publishTime>
+    </File>
+    <File Include="Account/ChangePasswordSuccess.aspx">
+      <publishTime>06/20/2014 10:05:32</publishTime>
+    </File>
+    <File Include="Account/Login.aspx">
+      <publishTime>06/20/2014 10:05:32</publishTime>
+    </File>
+    <File Include="Account/Register.aspx">
+      <publishTime>06/20/2014 10:05:32</publishTime>
+    </File>
+    <File Include="Account/RegisterSuccess.aspx">
+      <publishTime>06/20/2014 10:05:32</publishTime>
+    </File>
+    <File Include="Account/Web.config">
+      <publishTime>06/20/2014 10:05:33</publishTime>
+    </File>
+    <File Include="Admin/AsignacionResponsable.aspx">
+      <publishTime>06/18/2015 11:50:52</publishTime>
+    </File>
+    <File Include="Admin/CambioClaveAdmin.aspx">
+      <publishTime>02/23/2015 14:41:13</publishTime>
+    </File>
+    <File Include="Admin/CerrarSesionAdmin.aspx">
+      <publishTime>07/16/2014 10:05:56</publishTime>
+    </File>
+    <File Include="Admin/GestionAdmin.aspx">
+      <publishTime>06/18/2015 11:50:45</publishTime>
+    </File>
+    <File Include="Admin/InconvenienteAdmin.aspx">
+      <publishTime>06/18/2015 11:49:24</publishTime>
+    </File>
+    <File Include="Admin/InformacionAdmin.aspx">
+      <publishTime>06/18/2015 11:50:45</publishTime>
+    </File>
+    <File Include="Admin/jsValidarAdmin.js">
+      <publishTime>06/14/2016 15:07:55</publishTime>
+    </File>
+    <File Include="Admin/ListadoClientes.aspx">
+      <publishTime>06/29/2015 10:36:13</publishTime>
+    </File>
+    <File Include="Admin/LoginAdmin.aspx">
+      <publishTime>04/21/2015 09:02:51</publishTime>
+    </File>
+    <File Include="Admin/MenuAdmin.aspx">
+      <publishTime>06/26/2014 14:41:05</publishTime>
+    </File>
+    <File Include="Admin/ReportesAdmin.aspx">
+      <publishTime>06/23/2015 10:08:25</publishTime>
+    </File>
+    <File Include="Admin/TicketsAdmin.aspx">
+      <publishTime>06/14/2016 15:15:51</publishTime>
+    </File>
+    <File Include="App_Data/NWind.mdf">
+      <publishTime>06/20/2014 10:06:41</publishTime>
+    </File>
+    <File Include="App_Data/NWind_log.ldf">
+      <publishTime>06/20/2014 10:06:41</publishTime>
+    </File>
+    <File Include="App_Data/SideMenu.xml">
+      <publishTime>06/20/2014 10:05:36</publishTime>
+    </File>
+    <File Include="App_Data/TopMenuAdmin.xml">
+      <publishTime>04/23/2015 08:27:48</publishTime>
+    </File>
+    <File Include="App_Data/TopMenuCliente.xml">
+      <publishTime>08/01/2014 10:59:55</publishTime>
+    </File>
+    <File Include="bin/APATickets.dll">
+      <publishTime>06/14/2016 15:35:05</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Data.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:38:56</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Data.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:33:46</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Office.v13.2.Core.resources.dll">
+      <publishTime>06/20/2014 09:39:10</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Office.v14.1.Core.resources.dll">
+      <publishTime>05/03/2016 08:34:06</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.PivotGrid.v13.2.Core.resources.dll">
+      <publishTime>06/20/2014 09:39:20</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.PivotGrid.v14.1.Core.resources.dll">
+      <publishTime>05/03/2016 08:34:21</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Printing.v13.2.Core.resources.dll">
+      <publishTime>06/20/2014 09:39:10</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Printing.v14.1.Core.resources.dll">
+      <publishTime>05/03/2016 08:34:06</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.RichEdit.v13.2.Core.resources.dll">
+      <publishTime>06/20/2014 09:39:21</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.RichEdit.v14.1.Core.resources.dll">
+      <publishTime>05/03/2016 08:34:22</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Sparkline.v14.1.Core.resources.dll">
+      <publishTime>05/03/2016 08:34:07</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Utils.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:39:13</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Utils.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:34:11</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Web.ASPxHtmlEditor.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:38:54</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Web.ASPxHtmlEditor.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:33:42</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Web.ASPxScheduler.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:38:54</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Web.ASPxScheduler.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:33:45</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Web.ASPxSpellChecker.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:38:54</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Web.ASPxSpellChecker.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:33:45</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Web.ASPxTreeList.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:38:54</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Web.ASPxTreeList.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:33:46</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Web.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:38:54</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Web.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:33:42</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraCharts.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:39:17</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraCharts.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:34:13</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraGauges.v13.2.Core.resources.dll">
+      <publishTime>06/20/2014 09:39:19</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraGauges.v13.2.Presets.resources.dll">
+      <publishTime>06/20/2014 09:39:19</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraGauges.v14.1.Core.resources.dll">
+      <publishTime>05/03/2016 08:34:21</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraGauges.v14.1.Presets.resources.dll">
+      <publishTime>05/03/2016 08:34:21</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraPivotGrid.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:39:20</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraPivotGrid.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:34:21</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraReports.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:39:20</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraReports.v13.2.Web.resources.dll">
+      <publishTime>06/20/2014 09:39:21</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraReports.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:34:21</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraReports.v14.1.Web.resources.dll">
+      <publishTime>05/03/2016 08:34:22</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraScheduler.v13.2.Core.resources.dll">
+      <publishTime>06/20/2014 09:39:21</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraScheduler.v14.1.Core.resources.dll">
+      <publishTime>05/03/2016 08:34:22</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Charts.v13.2.Core.dll">
+      <publishTime>06/20/2014 09:39:17</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Charts.v14.1.Core.dll">
+      <publishTime>05/03/2016 08:34:13</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Data.v13.2.dll">
+      <publishTime>06/20/2014 09:38:56</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Data.v14.1.dll">
+      <publishTime>05/03/2016 08:33:46</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Office.v13.2.Core.dll">
+      <publishTime>06/20/2014 09:39:10</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Office.v14.1.Core.dll">
+      <publishTime>05/03/2016 08:34:06</publishTime>
+    </File>
+    <File Include="bin/DevExpress.PivotGrid.v13.2.Core.dll">
+      <publishTime>06/20/2014 09:39:20</publishTime>
+    </File>
+    <File Include="bin/DevExpress.PivotGrid.v14.1.Core.dll">
+      <publishTime>05/03/2016 08:34:21</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Printing.v13.2.Core.dll">
+      <publishTime>06/20/2014 09:39:10</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Printing.v14.1.Core.dll">
+      <publishTime>05/03/2016 08:34:06</publishTime>
+    </File>
+    <File Include="bin/DevExpress.RichEdit.v13.2.Core.dll">
+      <publishTime>06/20/2014 09:39:21</publishTime>
+    </File>
+    <File Include="bin/DevExpress.RichEdit.v14.1.Core.dll">
+      <publishTime>05/03/2016 08:34:22</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Sparkline.v14.1.Core.dll">
+      <publishTime>05/03/2016 08:34:07</publishTime>
+    </File>
+    <File Include="bin/DevExpress.SpellChecker.v13.2.Core.dll">
+      <publishTime>06/20/2014 09:39:10</publishTime>
+    </File>
+    <File Include="bin/DevExpress.SpellChecker.v14.1.Core.dll">
+      <publishTime>05/03/2016 08:34:07</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Utils.v13.2.dll">
+      <publishTime>06/20/2014 09:39:13</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Utils.v14.1.dll">
+      <publishTime>05/03/2016 08:34:11</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxGauges.v13.2.dll">
+      <publishTime>06/20/2014 09:38:54</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxGauges.v14.1.dll">
+      <publishTime>05/03/2016 08:33:42</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxHtmlEditor.v13.2.dll">
+      <publishTime>06/20/2014 09:38:54</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxHtmlEditor.v14.1.dll">
+      <publishTime>05/03/2016 08:33:42</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxPivotGrid.v13.2.dll">
+      <publishTime>06/20/2014 09:38:54</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxPivotGrid.v14.1.dll">
+      <publishTime>05/03/2016 08:33:45</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxScheduler.v13.2.dll">
+      <publishTime>06/20/2014 09:38:54</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxScheduler.v14.1.dll">
+      <publishTime>05/03/2016 08:33:45</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxSpellChecker.v13.2.dll">
+      <publishTime>06/20/2014 09:38:54</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxSpellChecker.v14.1.dll">
+      <publishTime>05/03/2016 08:33:45</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxThemes.v13.2.dll">
+      <publishTime>06/20/2014 09:38:54</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxThemes.v14.1.dll">
+      <publishTime>05/03/2016 08:33:46</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxTreeList.v13.2.dll">
+      <publishTime>06/20/2014 09:38:54</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxTreeList.v14.1.dll">
+      <publishTime>05/03/2016 08:33:46</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.v13.2.dll">
+      <publishTime>06/20/2014 09:38:54</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.v14.1.dll">
+      <publishTime>05/03/2016 08:33:43</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraCharts.v13.2.dll">
+      <publishTime>06/20/2014 09:39:17</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraCharts.v13.2.Web.dll">
+      <publishTime>06/20/2014 09:38:54</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraCharts.v14.1.dll">
+      <publishTime>05/03/2016 08:34:13</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraCharts.v14.1.Web.dll">
+      <publishTime>05/03/2016 08:33:42</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraGauges.v13.2.Core.dll">
+      <publishTime>06/20/2014 09:39:19</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraGauges.v13.2.Presets.dll">
+      <publishTime>06/20/2014 09:39:19</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraGauges.v14.1.Core.dll">
+      <publishTime>05/03/2016 08:34:21</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraGauges.v14.1.Presets.dll">
+      <publishTime>05/03/2016 08:34:21</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraPivotGrid.v13.2.dll">
+      <publishTime>06/20/2014 09:39:20</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraPivotGrid.v14.1.dll">
+      <publishTime>05/03/2016 08:34:21</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraReports.v13.2.dll">
+      <publishTime>06/20/2014 09:39:21</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraReports.v13.2.Web.dll">
+      <publishTime>06/20/2014 09:39:21</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraReports.v14.1.dll">
+      <publishTime>05/03/2016 08:34:21</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraReports.v14.1.Web.dll">
+      <publishTime>05/03/2016 08:34:22</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraScheduler.v13.2.Core.dll">
+      <publishTime>06/20/2014 09:39:21</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraScheduler.v14.1.Core.dll">
+      <publishTime>05/03/2016 08:34:22</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Data.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:38:56</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Data.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:33:46</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Office.v13.2.Core.resources.dll">
+      <publishTime>06/20/2014 09:39:10</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Office.v14.1.Core.resources.dll">
+      <publishTime>05/03/2016 08:34:06</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.PivotGrid.v13.2.Core.resources.dll">
+      <publishTime>06/20/2014 09:39:20</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.PivotGrid.v14.1.Core.resources.dll">
+      <publishTime>05/03/2016 08:34:21</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Printing.v13.2.Core.resources.dll">
+      <publishTime>06/20/2014 09:39:10</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Printing.v14.1.Core.resources.dll">
+      <publishTime>05/03/2016 08:34:06</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.RichEdit.v13.2.Core.resources.dll">
+      <publishTime>06/20/2014 09:39:21</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.RichEdit.v14.1.Core.resources.dll">
+      <publishTime>05/03/2016 08:34:22</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Sparkline.v14.1.Core.resources.dll">
+      <publishTime>05/03/2016 08:34:07</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Utils.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:39:13</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Utils.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:34:11</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Web.ASPxHtmlEditor.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:38:54</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Web.ASPxHtmlEditor.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:33:42</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Web.ASPxScheduler.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:38:54</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Web.ASPxScheduler.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:33:45</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Web.ASPxSpellChecker.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:38:54</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Web.ASPxSpellChecker.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:33:45</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Web.ASPxTreeList.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:38:54</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Web.ASPxTreeList.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:33:46</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Web.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:38:54</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Web.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:33:43</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraCharts.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:39:17</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraCharts.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:34:13</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraGauges.v13.2.Core.resources.dll">
+      <publishTime>06/20/2014 09:39:19</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraGauges.v13.2.Presets.resources.dll">
+      <publishTime>06/20/2014 09:39:19</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraGauges.v14.1.Core.resources.dll">
+      <publishTime>05/03/2016 08:34:21</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraGauges.v14.1.Presets.resources.dll">
+      <publishTime>05/03/2016 08:34:21</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraPivotGrid.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:39:20</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraPivotGrid.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:34:21</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraReports.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:39:21</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraReports.v13.2.Web.resources.dll">
+      <publishTime>06/20/2014 09:39:21</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraReports.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:34:21</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraReports.v14.1.Web.resources.dll">
+      <publishTime>05/03/2016 08:34:22</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraScheduler.v13.2.Core.resources.dll">
+      <publishTime>06/20/2014 09:39:21</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraScheduler.v14.1.Core.resources.dll">
+      <publishTime>05/03/2016 08:34:22</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Data.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:38:56</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Data.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:33:47</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Office.v13.2.Core.resources.dll">
+      <publishTime>06/20/2014 09:39:10</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Office.v14.1.Core.resources.dll">
+      <publishTime>05/03/2016 08:34:06</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.PivotGrid.v13.2.Core.resources.dll">
+      <publishTime>06/20/2014 09:39:20</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.PivotGrid.v14.1.Core.resources.dll">
+      <publishTime>05/03/2016 08:34:21</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Printing.v13.2.Core.resources.dll">
+      <publishTime>06/20/2014 09:39:10</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Printing.v14.1.Core.resources.dll">
+      <publishTime>05/03/2016 08:34:06</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.RichEdit.v13.2.Core.resources.dll">
+      <publishTime>06/20/2014 09:39:21</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.RichEdit.v14.1.Core.resources.dll">
+      <publishTime>05/03/2016 08:34:22</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Sparkline.v14.1.Core.resources.dll">
+      <publishTime>05/03/2016 08:34:07</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Utils.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:39:13</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Utils.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:34:11</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Web.ASPxHtmlEditor.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:38:54</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Web.ASPxHtmlEditor.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:33:42</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Web.ASPxScheduler.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:38:54</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Web.ASPxScheduler.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:33:45</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Web.ASPxSpellChecker.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:38:54</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Web.ASPxSpellChecker.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:33:45</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Web.ASPxTreeList.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:38:54</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Web.ASPxTreeList.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:33:46</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Web.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:38:54</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Web.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:33:43</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraCharts.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:39:17</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraCharts.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:34:13</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraGauges.v13.2.Core.resources.dll">
+      <publishTime>06/20/2014 09:39:19</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraGauges.v13.2.Presets.resources.dll">
+      <publishTime>06/20/2014 09:39:19</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraGauges.v14.1.Core.resources.dll">
+      <publishTime>05/03/2016 08:34:21</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraGauges.v14.1.Presets.resources.dll">
+      <publishTime>05/03/2016 08:34:21</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraPivotGrid.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:39:20</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraPivotGrid.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:34:21</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraReports.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:39:21</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraReports.v13.2.Web.resources.dll">
+      <publishTime>06/20/2014 09:39:21</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraReports.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:34:21</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraReports.v14.1.Web.resources.dll">
+      <publishTime>05/03/2016 08:34:22</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraScheduler.v13.2.Core.resources.dll">
+      <publishTime>06/20/2014 09:39:21</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraScheduler.v14.1.Core.resources.dll">
+      <publishTime>05/03/2016 08:34:22</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Data.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:38:56</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Data.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:33:47</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Office.v13.2.Core.resources.dll">
+      <publishTime>06/20/2014 09:39:10</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Office.v14.1.Core.resources.dll">
+      <publishTime>05/03/2016 08:34:06</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.PivotGrid.v13.2.Core.resources.dll">
+      <publishTime>06/20/2014 09:39:20</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.PivotGrid.v14.1.Core.resources.dll">
+      <publishTime>05/03/2016 08:34:21</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Printing.v13.2.Core.resources.dll">
+      <publishTime>06/20/2014 09:39:10</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Printing.v14.1.Core.resources.dll">
+      <publishTime>05/03/2016 08:34:06</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.RichEdit.v13.2.Core.resources.dll">
+      <publishTime>06/20/2014 09:39:21</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.RichEdit.v14.1.Core.resources.dll">
+      <publishTime>05/03/2016 08:34:22</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Sparkline.v14.1.Core.resources.dll">
+      <publishTime>05/03/2016 08:34:07</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Utils.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:39:13</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Utils.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:34:11</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Web.ASPxHtmlEditor.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:38:54</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Web.ASPxHtmlEditor.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:33:42</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Web.ASPxScheduler.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:38:54</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Web.ASPxScheduler.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:33:45</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Web.ASPxSpellChecker.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:38:54</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Web.ASPxSpellChecker.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:33:45</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Web.ASPxTreeList.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:38:54</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Web.ASPxTreeList.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:33:46</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Web.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:38:54</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Web.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:33:43</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraCharts.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:39:17</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraCharts.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:34:13</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraGauges.v13.2.Core.resources.dll">
+      <publishTime>06/20/2014 09:39:19</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraGauges.v13.2.Presets.resources.dll">
+      <publishTime>06/20/2014 09:39:19</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraGauges.v14.1.Core.resources.dll">
+      <publishTime>05/03/2016 08:34:21</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraGauges.v14.1.Presets.resources.dll">
+      <publishTime>05/03/2016 08:34:21</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraPivotGrid.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:39:20</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraPivotGrid.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:34:21</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraReports.v13.2.resources.dll">
+      <publishTime>06/20/2014 09:39:21</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraReports.v13.2.Web.resources.dll">
+      <publishTime>06/20/2014 09:39:21</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraReports.v14.1.resources.dll">
+      <publishTime>05/03/2016 08:34:21</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraReports.v14.1.Web.resources.dll">
+      <publishTime>05/03/2016 08:34:22</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraScheduler.v13.2.Core.resources.dll">
+      <publishTime>06/20/2014 09:39:21</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraScheduler.v14.1.Core.resources.dll">
+      <publishTime>05/03/2016 08:34:22</publishTime>
+    </File>
+    <File Include="bin/SHA3.dll">
+      <publishTime>03/06/2013 05:43:57</publishTime>
+    </File>
+    <File Include="Content/Images/AquaHeader.jpg">
+      <publishTime>06/20/2014 10:05:33</publishTime>
+    </File>
+    <File Include="Content/Images/BlackGlassHeader.jpg">
+      <publishTime>06/20/2014 10:05:33</publishTime>
+    </File>
+    <File Include="Content/Images/GlassHeader.jpg">
+      <publishTime>06/20/2014 10:05:33</publishTime>
+    </File>
+    <File Include="Content/Images/PlasticBlueHeader.jpg">
+      <publishTime>06/20/2014 10:05:33</publishTime>
+    </File>
+    <File Include="Content/Images/RedWineHeader.jpg">
+      <publishTime>06/20/2014 10:05:33</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>07/29/2014 12:53:09</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>06/20/2014 10:05:31</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>06/20/2014 10:05:31</publishTime>
+    </File>
+    <File Include="Images/APA.jpg">
+      <publishTime>06/20/2014 10:57:48</publishTime>
+    </File>
+    <File Include="Images/APA.png">
+      <publishTime>06/20/2014 11:50:53</publishTime>
+    </File>
+    <File Include="Images/banner_sup1.jpg">
+      <publishTime>07/29/2014 11:44:36</publishTime>
+    </File>
+    <File Include="Images/BotonLogin.png">
+      <publishTime>06/23/2014 09:49:08</publishTime>
+    </File>
+    <File Include="Images/cabeceramenuusuario.jpg">
+      <publishTime>03/25/2015 11:00:06</publishTime>
+    </File>
+    <File Include="Images/FavicoRevista_trans.png">
+      <publishTime>06/20/2014 11:17:35</publishTime>
+    </File>
+    <File Include="Images/fondoinicio.jpg">
+      <publishTime>06/23/2014 08:55:21</publishTime>
+    </File>
+    <File Include="Images/fondologinadmin.jpg">
+      <publishTime>03/25/2015 12:52:32</publishTime>
+    </File>
+    <File Include="Images/FondoLoginUsuario.jpg">
+      <publishTime>03/17/2015 15:41:26</publishTime>
+    </File>
+    <File Include="Images/fondologinusuario1.png">
+      <publishTime>03/17/2015 15:41:19</publishTime>
+    </File>
+    <File Include="Images/fondousuario.jpg">
+      <publishTime>03/19/2015 12:32:38</publishTime>
+    </File>
+    <File Include="Images/fondousuariopie.jpg">
+      <publishTime>03/17/2015 16:57:18</publishTime>
+    </File>
+    <File Include="Images/fondo_ladrillo.jpg">
+      <publishTime>03/09/2015 10:51:04</publishTime>
+    </File>
+    <File Include="Images/Iconos/AbrirTicket.png">
+      <publishTime>08/26/2014 10:50:31</publishTime>
+    </File>
+    <File Include="Images/Iconos/AgregarRegistro.png">
+      <publishTime>06/27/2014 10:57:23</publishTime>
+    </File>
+    <File Include="Images/Iconos/AsignarResponsable.png">
+      <publishTime>09/08/2014 09:29:21</publishTime>
+    </File>
+    <File Include="Images/Iconos/btnAceptar.png">
+      <publishTime>08/26/2014 10:32:28</publishTime>
+    </File>
+    <File Include="Images/Iconos/btnCancelar.png">
+      <publishTime>08/26/2014 10:32:26</publishTime>
+    </File>
+    <File Include="Images/Iconos/CerrarRegistro.png">
+      <publishTime>06/27/2014 12:49:43</publishTime>
+    </File>
+    <File Include="Images/Iconos/CerrarTicket.png">
+      <publishTime>08/26/2014 16:16:15</publishTime>
+    </File>
+    <File Include="Images/Iconos/ModificarRegistro.png">
+      <publishTime>06/27/2014 10:58:03</publishTime>
+    </File>
+    <File Include="Images/Iconos/ResponderTicket.png">
+      <publishTime>09/08/2014 09:37:01</publishTime>
+    </File>
+    <File Include="Images/llave.png">
+      <publishTime>06/23/2014 08:57:29</publishTime>
+    </File>
+    <File Include="Images/logoAPA.png">
+      <publishTime>03/17/2015 15:39:32</publishTime>
+    </File>
+    <File Include="Images/Logos/Compers_SinFondo.png">
+      <publishTime>04/16/2015 15:18:47</publishTime>
+    </File>
+    <File Include="Images/Logos/MRH_SinFondo.png">
+      <publishTime>04/16/2015 15:18:47</publishTime>
+    </File>
+    <File Include="Images/Logos/Nomina_SinFondo.png">
+      <publishTime>04/16/2015 15:18:47</publishTime>
+    </File>
+    <File Include="Images/Logos/PHE_SinFondo.png">
+      <publishTime>04/16/2015 15:18:47</publishTime>
+    </File>
+    <File Include="Images/Logos/PSICONET_SnFondo.png">
+      <publishTime>04/16/2015 15:18:47</publishTime>
+    </File>
+    <File Include="Images/Logos/RHL_SinFondo.png">
+      <publishTime>04/16/2015 15:18:47</publishTime>
+    </File>
+    <File Include="Images/logo_compers.jpg">
+      <publishTime>06/20/2014 11:17:35</publishTime>
+    </File>
+    <File Include="Images/logo_mrh.png">
+      <publishTime>06/20/2014 11:17:35</publishTime>
+    </File>
+    <File Include="Images/logo_nomina.jpg">
+      <publishTime>06/20/2014 11:17:35</publishTime>
+    </File>
+    <File Include="Images/logo_psiconet.jpg">
+      <publishTime>06/20/2014 11:17:35</publishTime>
+    </File>
+    <File Include="Images/logo_rhe.png">
+      <publishTime>06/20/2014 11:17:35</publishTime>
+    </File>
+    <File Include="Images/logo_rhl.png">
+      <publishTime>06/20/2014 11:17:35</publishTime>
+    </File>
+    <File Include="Light.master">
+      <publishTime>06/20/2014 10:05:31</publishTime>
+    </File>
+    <File Include="Main.master">
+      <publishTime>06/20/2014 11:57:48</publishTime>
+    </File>
+    <File Include="MasterAdministrador.Master">
+      <publishTime>03/25/2015 12:56:13</publishTime>
+    </File>
+    <File Include="Root.master">
+      <publishTime>06/14/2016 14:44:34</publishTime>
+    </File>
+    <File Include="Usuario/AyudaUsuario.aspx">
+      <publishTime>06/18/2015 16:24:45</publishTime>
+    </File>
+    <File Include="Usuario/CerrarSesionesUsuario.aspx">
+      <publishTime>07/14/2014 12:37:01</publishTime>
+    </File>
+    <File Include="Usuario/HistorialTicketsUsuario.aspx">
+      <publishTime>06/18/2015 11:50:08</publishTime>
+    </File>
+    <File Include="Usuario/InformacionUsuario.aspx">
+      <publishTime>06/18/2015 11:48:55</publishTime>
+    </File>
+    <File Include="Usuario/jsValidar.js">
+      <publishTime>06/14/2016 14:55:28</publishTime>
+    </File>
+    <File Include="Usuario/LoginUsuario.aspx">
+      <publishTime>04/21/2015 09:02:39</publishTime>
+    </File>
+    <File Include="Usuario/TicketsUsuario.aspx">
+      <publishTime>01/06/2016 12:39:27</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/14/2016 14:55:50</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
